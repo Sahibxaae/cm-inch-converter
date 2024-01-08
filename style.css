@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'MiriamLibre-Bold';
+}
+@font-face {
+    font-family:'MiriamLibre-Bold';
+    src: url('Fonts/MiriamLibre-Bold.ttf');
+}
+main{
+    height: 100vh;
+    width:100%;
+    min-width: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 9, 54);
+}
+.container{
+    background-color:rgb(255, 174, 0);
+    width:350px;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+.converter-box{
+    width:300px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+.c-button button{
+    width:300px;
+    height:40px;
+    border-radius: 6px;
+    margin-top:1.5rem;
+    color:rgb(255, 174, 0);
+    background-color:rgb(9, 9, 54) ;
+}
+.inches-n{
+    margin-top: 3rem;
+}
+.result{
+    width: 300px;
+    height: 40px;
+    background:white;
+    margin: auto;
+    padding-top:0.5rem;
+    margin-top: 1rem;
+    border: black 2px solid;
+    border-radius: 6px;
+}
+
